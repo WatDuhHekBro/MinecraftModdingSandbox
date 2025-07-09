@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "architecturytest",
+  "version": "${version}",
+  "name": "ArchitecturyTest",
+  "description": "",
+  "authors": [
+    "WatDuhHekBro"
+  ],
+  "contact": {
+    "homepage": "https://zbound.net/"
+  },
+  "license": "MIT",
+  "icon": "assets/architecturytest/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.zbound.architecturytest.fabric.ArchitecturyTestFabric"
+    ],
+    "client": [
+      "net.zbound.architecturytest.fabric.client.ArchitecturyTestFabricClient"
+    ]
+  },
+  "mixins": [
+    "architecturytest.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "architectury": ">=9.2.14",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
