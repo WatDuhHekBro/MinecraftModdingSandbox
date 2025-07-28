@@ -86,3 +86,9 @@ Name: "Vanilla-Safe Backport Layer"
 
 Vanilla Backport Compatibility Layer
 - Mainly just set "minecraft:blue_egg" to "somemodid:blue_egg" and have the mod automatically figure it out / redirect it somehow. This allows passing functionality over to whatever backend you choose.
+
+
+
+## Dump
+
+- Gravestones = minecraft:chest with name and custom model tag.
